@@ -1,0 +1,255 @@
+
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color:#fceae8;
+}
+.carousel-item{
+    padding: 20px 20px;
+}
+.price{
+    color: #ff136f;
+}
+
+.bye-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1{
+    background-color: orange;
+}
+
+.cat2{
+    background-color: orchid;
+}
+
+.cat3{
+    background-color: lightblue;
+}
+
+.nam{
+    color:  #ff136f;
+}
+.categories h1{
+    color: white;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+.forth{
+    text-align: center;
+    color: #ccc;
+    background-color: #282531 ;
+}
+
+
+.login-container {
+    display: none;
+    position: absolute;
+    max-width: 300px;
+    top: 50px;
+    right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .login-button {
+    cursor: pointer;
+  }
+  .b-login{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+
+
+  .registration-container {
+    display: none;
+    position: absolute;
+    max-width: 500px;
+    top: 50px;
+    right: 10px;
+    padding: 2px;
+    background-color: #fceae8 ;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .b-signup{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+  }
+
+  .login-container img{
+    height: 10px;
+    width: 25%;
+    float: left;
+    
+  }
+
+  .registration-container img{
+    height: 10px;
+    width: 20%;
+    float: left;
+    
+  }
+
+
+  .close-btnc{
+    color:#FF136F;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.popup-content {
+    background-color: #fceae8;
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+}
+.close-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.popup-content img{
+    height: 10px;
+    width: 10%;
+    float: left;
+    
+  }
+
+
+
+
+
+  .checkout .form-control{
+    border-radius: 0px !important;
+}
+.checkout .form-control:focus{
+    border: 1px solid #000 !important;
+    box-shadow: none !important;
+}
+.checkout .nav-link{
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+.checkout .tab-content{
+    padding-right: 10px;
+}
+.cart img{
+    height: 10px;
+    width: 9%;
+    float: right;
+    margin: 20px 20px;
+}
+
+.text-primary {
+    color: #FF136F !important;
+  }
+
+.paym{
+    background-color:#fceae8 ;
+}
+.btn-primary{
+    background-color:  #FF136F !important;
+}
+
+.about {
+    width: 500px;
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  .about-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Make the image cover the entire card */
+  }
+
+  .bg-dark{
+    width: 800px;
+    margin: 0 auto; /* Center the card horizontally */
+    object-fit: cover;
+
+  }
+
+  .forth a:link{
+    text-decoration: none;
+    color: white;
+    
+  }
+  .shc{
+    width: 900px;
+    margin: 0 auto; /* Center the card horizontally */
+    object-fit: cover;
+    display: flex;
+  }
+
+  .sho a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .shr{
+    width: 750px;
+    margin: 0 auto; /* Center the card horizontally */
+    display: flex;
+  }
